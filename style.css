@@ -8,6 +8,7 @@
 body {
     background-color: black;
     color: white;
+    scroll-behavior: smooth;
 }
 
 .clearfix::after {
@@ -72,8 +73,11 @@ header h1 {
 
 main {
   height: 200vh;
-  margin-top: 20px;
   text-align: center;
+}
+
+main h2 {
+  padding: 70px 0 20px 0;
 }
 
 footer {
