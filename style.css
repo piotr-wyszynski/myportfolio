@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
   }
 
 body {
@@ -17,17 +17,19 @@ body {
 }
 
 nav {
-  padding-left: 5%;
+  position: fixed;
+  background-color: #343A40;
+  width: 100%;
 }
 
 nav ul {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0;
   list-style: none;
 }
 
 nav li {
-  padding-top: 2%;
+  padding: 1%;
   float: left;
 }
 
@@ -41,7 +43,7 @@ nav a {
   letter-spacing: 1px;
   padding: 0 40px;
   display: block;
-  color: rgb(0, 0, 0);
+  color: white;
   text-decoration: none;
 }
 
@@ -50,7 +52,7 @@ nav li:last-child a {
 }
 
 nav a:hover {
-  color: white;
+  color:deepskyblue;
 }
 
 header {
@@ -64,8 +66,8 @@ header {
 header h1 {
   color: black;
   position: absolute;
-  top: 20%;
-  left: 15%;
+  top: 15%;
+  left: 5%;
 }
 
 main {
