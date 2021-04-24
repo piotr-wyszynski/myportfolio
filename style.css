@@ -72,4 +72,15 @@ header h1 {
 
 main {
   height: 200vh;
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer {
+  height: 50px;
+  background-color:#343A40;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
 }
