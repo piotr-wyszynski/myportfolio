@@ -20,7 +20,7 @@ body {
 
 nav {
   position: fixed;
-  background-color: #343A40;
+  background-color: rgb(49, 49, 49);
   width: 100%;
 }
 
@@ -122,11 +122,11 @@ header h1 {
 }
 
 .portfolio .project:nth-of-type(odd) {
-  background-color: #343A40;
+  background-color: rgb(49, 49, 49);
 }
 
 .portfolio .project:nth-of-type(even) {
-  background-color: deepskyblue;
+  background-color: rgb(49, 49, 49);
 }
 
 @media (min-width:768px) {
@@ -330,7 +330,7 @@ header h1 {
 }
 
 footer {
-  background-color:#343A40;
+  background-color:rgb(49, 49, 49);
   width: 100%;
 }
 
