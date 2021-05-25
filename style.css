@@ -69,8 +69,8 @@ header h1 {
   font-size: 40px;
   color: black;
   position: absolute;
-  top: 15%;
-  left: 5%;
+  top: 10%;
+  right: 5%;
   text-transform: uppercase;
 }
 
@@ -120,14 +120,14 @@ header h1 {
   max-width: 1400px;
   margin: 0 auto 20px;
 }
-
+/* 
 .portfolio .project:nth-of-type(odd) {
   background-color: rgb(49, 49, 49);
 }
 
 .portfolio .project:nth-of-type(even) {
   background-color: rgb(49, 49, 49);
-}
+} */
 
 @media (min-width:768px) {
 
@@ -214,6 +214,8 @@ header h1 {
 
 .tech .logos {
   text-align: center;
+  background: rgb(49, 49, 49);
+  padding: 10px 0;
 }
 
 .tech .logos img {
